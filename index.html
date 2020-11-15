@@ -63,6 +63,11 @@
     setEventListener(mediaConnection);
   });
 
+  //接続が切れたとき
+  peer.on('close', () => {
+    alert('接続が切れました');
+  });
+
   </script>
 </body>
 </html>
