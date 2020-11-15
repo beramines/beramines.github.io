@@ -1,0 +1,9 @@
+{
+  "name": "skyway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "skyway-js": "^4.0.0"
+  }
+}
